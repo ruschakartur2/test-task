@@ -11,9 +11,9 @@ const cache = new InMemoryCache();
 Vue.config.productionTip = false
 const apolloClient = new ApolloClient({
     cache,
-   uri: 'http://localhost:8080/v1/graphql',
+   uri: 'https://testtaskss.herokuapp.com/v1/graphql',
   headers: {
-     'x-hasura-admin-secret' : ''
+     'x-hasura-admin-secret' : 'heofrfhneh555605'
   }
 })
 

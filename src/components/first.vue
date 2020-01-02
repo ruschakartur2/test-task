@@ -49,7 +49,6 @@ export default {
                         rate
                     }
                 }).then(data =>{
-                    this.$cache.x
 
                     console.log(data.data.insert_feedbacks.returning[0].id)
                 })
